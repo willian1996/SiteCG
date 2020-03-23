@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="34dc3cc5-0f26-4731-a803-04a0f6fac149" name="SiteCG" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="C:\Bitnami\wampstack\apache2\htdocs\sitecg" accessType="MOUNT" />
+      </webServer>
+      <webServer id="e8c8a008-8f6d-46cd-967c-2190c3d9f0d1" name="CGDevHospe" url="http://ftp.pensebicho.com.br">
+        <fileTransfer host="ftp.pensebicho.com.br" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

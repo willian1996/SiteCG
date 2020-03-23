@@ -1,0 +1,270 @@
+body{
+    background-image: url('../img/fundoCamu.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*
+    Cabeçalho
+*/
+
+.cabecalho{
+    height: 200px;
+    background-color: #4d6600;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+    margin-top: 23px;
+    margin-left: 42px;
+}
+
+.titcol{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.titsite{
+    /*line-height: 200px;*/
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+/*
+    Slider
+*/
+.caroslider{
+    padding: 10px 0;
+}
+
+.titulo {
+    opacity: 0.7;
+    background-color: #343a40;
+}
+
+/*
+    Em Construção
+*/
+
+.emconstru{
+    height: 300px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.imaconstru{
+    margin-top: 19px;
+    height: 262px;
+    width: 282px;
+}
+
+.textocontru{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.titprim{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.titsecu{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/*
+    Bloco Podcast
+*/
+
+.blocopod{
+    background-color: #a3a987;
+}
+
+.blocopod h1{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.titupod{
+    font-size: 14px;
+}
+
+.despod{
+    font-size: 12px;
+}
+
+.centra{
+    text-align: center;
+    width: 100%;
+}
+
+.ajuscard{
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+    Rodape
+*/
+
+.rodape{
+    height: 140px;
+    background-color: #4d6600;
+    padding-top: 20px;
+}
+
+.iconroda{
+    color: #a3a987;
+}
+
+.iconroda:hover{
+    color: #474b35;
+}
+
+.copy{
+    color: white;
+}
+
+.copy:hover{
+    color: #a3a987;
+}
+
+/*
+    Página Podcast
+*/
+
+.pagpod{
+    background-color: #a3a987;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pagpod h1{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tocador{
+    width: 500px;
+    border: none;
+}
+
+.botaopod{
+    padding-bottom: 30px;
+}
+
+/*
+    Responsividade
+*/
+
+@media only screen and (min-width:760px) and (max-width:906px){
+    /*
+        Cabeçalho
+    */
+    .cabecalho{
+        height: 160px;
+    }
+
+    .logo{
+        width: 150px;
+        height: auto;
+        margin-top: 18px;
+        margin-left: 30px;
+    }
+
+    .titsite{
+        font-size: 54px;
+    }
+    /*
+        Em Construção
+    */
+    .emconstru{
+        height: 240px;
+    }
+
+    .imaconstru{
+        margin-top: 16px;
+        height: 210px;
+        width: 226px;
+    }
+
+    .textocontru{
+        padding-top: 70px;
+    }
+
+    .titprim{
+        font-size: 31px;
+        font-weight: bold;
+    }
+
+    .titsecu{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    /*
+        Página Podcast
+    */
+    .tocador{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:760px){
+    /*
+        Cabeçalho
+    */
+    .cabecalho{
+        height: 130px;
+    }
+
+    .logo{
+        width: 100px;
+        height: auto;
+        margin-top: 14px;
+        margin-left: 18px;
+    }
+
+    .titsite{
+        font-size: 32px;
+    }
+    /*
+        Em Construção
+    */
+    .emconstru{
+        height: 200px;
+    }
+
+    .imaconstru{
+        margin-top: 16px;
+        height: 140px;
+        width: 150px;
+    }
+
+    .textocontru{
+        padding-top: 40px;
+    }
+
+    .titprim{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .titsecu{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    /*
+        Página Podcast
+    */
+    .tocador{
+        width: 300px;
+    }
+}
